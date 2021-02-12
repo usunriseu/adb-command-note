@@ -1,0 +1,10 @@
+1.ADB 
+  adb devices                                 ----Check connected devices list
+  adb install [Filename]                      ----Install apk file.
+  adb -r install [Filename]                   ----Install akp file with overwriting.
+  adb uninstall [Filename]                    ----Uninstall a software which in device, directly Delete,With no info or data about this software remain in devices)
+  adb -k uninstall [Filename]                 ----Uninstall a software which in device, but keep softwares' data in device.
+  adb push [Filename] [Path]                  ----Send a file to device.
+  adb pull [Filepath]                         ----Download a file from device.
+  adb shell screencap [Filepath+Filename]     ----Screen capture.
+  adb shell screenrecord [Filename+Filepath]  ----Screen recording
